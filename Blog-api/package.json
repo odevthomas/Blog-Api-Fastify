@@ -1,0 +1,23 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "API com Fastify",
+  "main": "src/server.js",
+  "type": "module",
+  "author": {
+    "name": "Thomas Eduardo",
+    "url": "https://github.com/odevthomas"
+  },
+  "scripts": {
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "fastify": "^5.2.1",
+    "jsonwebtoken": "^9.0.2",
+    "pino-pretty": "^13.0.0",
+    "request": "^2.88.2"
+  }
+}
